@@ -47,23 +47,16 @@ public class HttpUrlCheckerTest {
     }
 
     @Test
-    public void testDomainAndSubdomain() {
-        checkRegex("http://www.bajupa.com");
-    }
+    public void testDomainAndSubdomain() { checkRegex("http://www.bajupa.com"); }
 
     @Test
-    public void testMoreSubdomains() {
-        checkRegex("http://www.flll.jku.ac.at");
-    }
+    public void testMoreSubdomains() { checkRegex("http://www.flll.jku.ac.at"); }
 
     @Test
-    public void testDomainsWithDash() {
-        checkRegex("http://www.htl-leonding.ac.at");
-    }
+    public void testDomainsWithDash() { checkRegex("http://www.htl-leonding.ac.at"); }
 
     @Test
-    public void testDomainWithNumbers() {
-        checkRegex("http://456bereastreet.com");
+    public void testDomainWithNumbers() { checkRegex("http://456bereastreet.com");
     }
 
     @Test
